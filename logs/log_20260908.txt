@@ -1,0 +1,116 @@
+2026-09-08 09:09:41.482 +07:00 [INF] Xem lich su - Xem lich su giao dich doquanghuan thanh cong
+2026-09-08 09:10:15.110 +07:00 [INF] Xem thong tin - Xem thong tin doquanghuan thanh cong
+2026-09-08 09:10:53.200 +07:00 [INF] Nap Tien - So tai khoan doquanghuan nap tien thanh cong, so tien 200000
+2026-09-08 09:10:53.202 +07:00 [INF] Xem so du - Xem so du doquanghuan thanh cong
+2026-09-08 09:12:30.087 +07:00 [INF] Xem thong tin - Xem thong tin doquanghuan thanh cong
+2026-09-08 09:12:34.131 +07:00 [INF] Xem lich su - Xem lich su giao dich doquanghuan thanh cong
+2026-09-08 09:24:37.331 +07:00 [WRN] Rut tien - So tai khoan doquanghuan rut tien thanh cong
+2026-09-08 09:24:39.598 +07:00 [WRN] Rut tien - So tai khoan doquanghuan rut tien that bai, so du khong du 11100000
+2026-09-08 09:24:46.948 +07:00 [INF] Xem lich su - Xem lich su giao dich doquanghuan thanh cong
+2026-09-08 09:27:25.209 +07:00 [INF] Xem lich su - Xem lich su giao dich doquanghuan thanh cong
+2026-09-08 09:28:14.227 +07:00 [INF] Xem lich su - Xem lich su giao dich doquanghuan thanh cong
+2026-09-08 09:28:14.289 +07:00 [ERR] Lay lich su giao dich - Loi he thong khi lay lich su giao dich doquanghuan
+Oracle.ManagedDataAccess.Client.OracleException (0x80004005): ORA-00904: "BALANCE_BEFOR": invalid identifier
+https://docs.oracle.com/error-help/db/ora-00904/
+   at OracleInternal.ServiceObjects.OracleFailoverMgrImpl.OnError(OracleConnection connection, CallHistoryRecord chr, Object mi, Exception ex, Boolean bTopLevelCall, Boolean& bCanRecordNewCall)
+   at Oracle.ManagedDataAccess.Client.OracleCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at Dapper.SqlMapper.ExecuteReaderWithFlagsFallback(IDbCommand cmd, Boolean wasClosed, CommandBehavior behavior) in /_/Dapper/SqlMapper.cs:line 1189
+   at Dapper.SqlMapper.QueryImpl[T](IDbConnection cnn, CommandDefinition command, Type effectiveType)+MoveNext() in /_/Dapper/SqlMapper.cs:line 1217
+   at System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at Dapper.SqlMapper.Query[T](IDbConnection cnn, String sql, Object param, IDbTransaction transaction, Boolean buffered, Nullable`1 commandTimeout, Nullable`1 commandType) in /_/Dapper/SqlMapper.cs:line 848
+   at AccountDAO.GetTransactionHistory(String stk) in C:\Users\Admin\OneDrive\Documents\WebAPIL\HuanBank.Api\src\DAO\AccountDAO.cs:line 184
+   at BankManager.GetTransactionHistory(String stk) in C:\Users\Admin\OneDrive\Documents\WebAPIL\HuanBank.Api\src\service\bank.cs:line 230
+2026-09-08 09:28:16.814 +07:00 [INF] Xem lich su - Xem lich su giao dich doquanghuan thanh cong
+2026-09-08 09:28:16.828 +07:00 [ERR] Lay lich su giao dich - Loi he thong khi lay lich su giao dich doquanghuan
+Oracle.ManagedDataAccess.Client.OracleException (0x80004005): ORA-00904: "BALANCE_BEFOR": invalid identifier
+https://docs.oracle.com/error-help/db/ora-00904/
+   at OracleInternal.ServiceObjects.OracleFailoverMgrImpl.OnError(OracleConnection connection, CallHistoryRecord chr, Object mi, Exception ex, Boolean bTopLevelCall, Boolean& bCanRecordNewCall)
+   at Oracle.ManagedDataAccess.Client.OracleCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at Dapper.SqlMapper.ExecuteReaderWithFlagsFallback(IDbCommand cmd, Boolean wasClosed, CommandBehavior behavior) in /_/Dapper/SqlMapper.cs:line 1189
+   at Dapper.SqlMapper.QueryImpl[T](IDbConnection cnn, CommandDefinition command, Type effectiveType)+MoveNext() in /_/Dapper/SqlMapper.cs:line 1217
+   at System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at Dapper.SqlMapper.Query[T](IDbConnection cnn, String sql, Object param, IDbTransaction transaction, Boolean buffered, Nullable`1 commandTimeout, Nullable`1 commandType) in /_/Dapper/SqlMapper.cs:line 848
+   at AccountDAO.GetTransactionHistory(String stk) in C:\Users\Admin\OneDrive\Documents\WebAPIL\HuanBank.Api\src\DAO\AccountDAO.cs:line 184
+   at BankManager.GetTransactionHistory(String stk) in C:\Users\Admin\OneDrive\Documents\WebAPIL\HuanBank.Api\src\service\bank.cs:line 230
+2026-09-08 09:28:30.855 +07:00 [INF] Xem lich su - Xem lich su giao dich doquanghuan1 thanh cong
+2026-09-08 09:28:30.860 +07:00 [ERR] Lay lich su giao dich - Loi he thong khi lay lich su giao dich doquanghuan1
+Oracle.ManagedDataAccess.Client.OracleException (0x80004005): ORA-00904: "BALANCE_BEFOR": invalid identifier
+https://docs.oracle.com/error-help/db/ora-00904/
+   at OracleInternal.ServiceObjects.OracleFailoverMgrImpl.OnError(OracleConnection connection, CallHistoryRecord chr, Object mi, Exception ex, Boolean bTopLevelCall, Boolean& bCanRecordNewCall)
+   at Oracle.ManagedDataAccess.Client.OracleCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at Dapper.SqlMapper.ExecuteReaderWithFlagsFallback(IDbCommand cmd, Boolean wasClosed, CommandBehavior behavior) in /_/Dapper/SqlMapper.cs:line 1189
+   at Dapper.SqlMapper.QueryImpl[T](IDbConnection cnn, CommandDefinition command, Type effectiveType)+MoveNext() in /_/Dapper/SqlMapper.cs:line 1217
+   at System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at Dapper.SqlMapper.Query[T](IDbConnection cnn, String sql, Object param, IDbTransaction transaction, Boolean buffered, Nullable`1 commandTimeout, Nullable`1 commandType) in /_/Dapper/SqlMapper.cs:line 848
+   at AccountDAO.GetTransactionHistory(String stk) in C:\Users\Admin\OneDrive\Documents\WebAPIL\HuanBank.Api\src\DAO\AccountDAO.cs:line 184
+   at BankManager.GetTransactionHistory(String stk) in C:\Users\Admin\OneDrive\Documents\WebAPIL\HuanBank.Api\src\service\bank.cs:line 230
+2026-09-08 09:28:32.081 +07:00 [INF] Xem lich su - Xem lich su giao dich doquanghuan1 thanh cong
+2026-09-08 09:28:32.085 +07:00 [ERR] Lay lich su giao dich - Loi he thong khi lay lich su giao dich doquanghuan1
+Oracle.ManagedDataAccess.Client.OracleException (0x80004005): ORA-00904: "BALANCE_BEFOR": invalid identifier
+https://docs.oracle.com/error-help/db/ora-00904/
+   at OracleInternal.ServiceObjects.OracleFailoverMgrImpl.OnError(OracleConnection connection, CallHistoryRecord chr, Object mi, Exception ex, Boolean bTopLevelCall, Boolean& bCanRecordNewCall)
+   at Oracle.ManagedDataAccess.Client.OracleCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at Dapper.SqlMapper.ExecuteReaderWithFlagsFallback(IDbCommand cmd, Boolean wasClosed, CommandBehavior behavior) in /_/Dapper/SqlMapper.cs:line 1189
+   at Dapper.SqlMapper.QueryImpl[T](IDbConnection cnn, CommandDefinition command, Type effectiveType)+MoveNext() in /_/Dapper/SqlMapper.cs:line 1217
+   at System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at Dapper.SqlMapper.Query[T](IDbConnection cnn, String sql, Object param, IDbTransaction transaction, Boolean buffered, Nullable`1 commandTimeout, Nullable`1 commandType) in /_/Dapper/SqlMapper.cs:line 848
+   at AccountDAO.GetTransactionHistory(String stk) in C:\Users\Admin\OneDrive\Documents\WebAPIL\HuanBank.Api\src\DAO\AccountDAO.cs:line 184
+   at BankManager.GetTransactionHistory(String stk) in C:\Users\Admin\OneDrive\Documents\WebAPIL\HuanBank.Api\src\service\bank.cs:line 230
+2026-09-08 09:28:33.010 +07:00 [INF] Xem lich su - Xem lich su giao dich doquanghuan1 thanh cong
+2026-09-08 09:28:33.013 +07:00 [ERR] Lay lich su giao dich - Loi he thong khi lay lich su giao dich doquanghuan1
+Oracle.ManagedDataAccess.Client.OracleException (0x80004005): ORA-00904: "BALANCE_BEFOR": invalid identifier
+https://docs.oracle.com/error-help/db/ora-00904/
+   at OracleInternal.ServiceObjects.OracleFailoverMgrImpl.OnError(OracleConnection connection, CallHistoryRecord chr, Object mi, Exception ex, Boolean bTopLevelCall, Boolean& bCanRecordNewCall)
+   at Oracle.ManagedDataAccess.Client.OracleCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at Dapper.SqlMapper.ExecuteReaderWithFlagsFallback(IDbCommand cmd, Boolean wasClosed, CommandBehavior behavior) in /_/Dapper/SqlMapper.cs:line 1189
+   at Dapper.SqlMapper.QueryImpl[T](IDbConnection cnn, CommandDefinition command, Type effectiveType)+MoveNext() in /_/Dapper/SqlMapper.cs:line 1217
+   at System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at Dapper.SqlMapper.Query[T](IDbConnection cnn, String sql, Object param, IDbTransaction transaction, Boolean buffered, Nullable`1 commandTimeout, Nullable`1 commandType) in /_/Dapper/SqlMapper.cs:line 848
+   at AccountDAO.GetTransactionHistory(String stk) in C:\Users\Admin\OneDrive\Documents\WebAPIL\HuanBank.Api\src\DAO\AccountDAO.cs:line 184
+   at BankManager.GetTransactionHistory(String stk) in C:\Users\Admin\OneDrive\Documents\WebAPIL\HuanBank.Api\src\service\bank.cs:line 230
+2026-09-08 09:29:30.153 +07:00 [INF] Xem lich su - Xem lich su giao dich doquanghuan1 thanh cong
+2026-09-08 09:29:32.024 +07:00 [INF] Xem lich su - Xem lich su giao dich doquanghuan1 thanh cong
+2026-09-08 09:29:32.449 +07:00 [INF] Xem lich su - Xem lich su giao dich doquanghuan1 thanh cong
+2026-09-08 09:29:32.998 +07:00 [INF] Xem lich su - Xem lich su giao dich doquanghuan1 thanh cong
+2026-09-08 09:29:33.062 +07:00 [INF] Xem lich su - Xem lich su giao dich doquanghuan1 thanh cong
+2026-09-08 09:29:33.559 +07:00 [INF] Xem lich su - Xem lich su giao dich doquanghuan1 thanh cong
+2026-09-08 09:29:33.971 +07:00 [INF] Xem lich su - Xem lich su giao dich doquanghuan1 thanh cong
+2026-09-08 09:29:44.723 +07:00 [INF] Xem lich su - Xem lich su giao dich doquanghuan thanh cong
+2026-09-08 09:30:09.381 +07:00 [INF] Chuyen tien - So tai khoan doquanghuan chuyen tien thanh cong cho so tai khoan doquanghuan1, So tien 10000
+2026-09-08 09:30:17.528 +07:00 [INF] Xem lich su - Xem lich su giao dich doquanghuan thanh cong
+2026-09-08 09:30:29.045 +07:00 [INF] Xem lich su - Xem lich su giao dich doquanghuan1 thanh cong
+2026-09-08 09:32:29.866 +07:00 [INF] Xem lich su - Xem lich su giao dich doquanghuan thanh cong
+2026-09-08 09:35:44.505 +07:00 [INF] Dang Nhap - stk doquanghuan1 Dang nhap thanh cong
+2026-09-08 09:35:44.591 +07:00 [INF] Dang Nhap - stk doquanghuan1 Dang nhap thanh cong
+2026-09-08 09:37:30.170 +07:00 [ERR] An unhandled exception has occurred while executing the request.
+Microsoft.AspNetCore.Http.BadHttpRequestException: Required parameter "string stk" was not provided from query string.
+   at lambda_method7(Closure, Object, HttpContext)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2026-09-08 09:37:30.470 +07:00 [ERR] An unhandled exception has occurred while executing the request.
+Microsoft.AspNetCore.Http.BadHttpRequestException: Required parameter "string stk" was not provided from query string.
+   at lambda_method7(Closure, Object, HttpContext)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2026-09-08 09:38:38.379 +07:00 [INF] Xem so du - Xem so du doquanghuan thanh cong
+2026-09-08 09:39:57.388 +07:00 [INF] Xem so du - Xem so du doquanghuan thanh cong
+2026-09-08 09:39:57.487 +07:00 [INF] Xem so du - Xem so du doquanghuan thanh cong
+2026-09-08 09:39:58.133 +07:00 [INF] Xem so du - Xem so du doquanghuan thanh cong
+2026-09-08 09:39:58.681 +07:00 [INF] Xem so du - Xem so du doquanghuan thanh cong
+2026-09-08 09:39:58.803 +07:00 [INF] Xem so du - Xem so du doquanghuan thanh cong
+2026-09-08 09:39:59.825 +07:00 [INF] Dang Nhap - stk doquanghuan1 Dang nhap thanh cong
+2026-09-08 09:40:00.483 +07:00 [INF] Dang Nhap - stk doquanghuan1 Dang nhap thanh cong
+2026-09-08 09:40:00.578 +07:00 [INF] Dang Nhap - stk doquanghuan1 Dang nhap thanh cong
+2026-09-08 09:40:01.040 +07:00 [INF] Dang Nhap - stk doquanghuan1 Dang nhap thanh cong
+2026-09-08 09:40:01.442 +07:00 [INF] Dang Nhap - stk doquanghuan1 Dang nhap thanh cong
+2026-09-08 09:40:01.496 +07:00 [INF] Dang Nhap - stk doquanghuan1 Dang nhap thanh cong
+2026-09-08 09:40:01.930 +07:00 [INF] Dang Nhap - stk doquanghuan1 Dang nhap thanh cong
+2026-09-08 09:40:02.435 +07:00 [INF] Dang Nhap - stk doquanghuan1 Dang nhap thanh cong
+2026-09-08 09:40:02.556 +07:00 [INF] Dang Nhap - stk doquanghuan1 Dang nhap thanh cong

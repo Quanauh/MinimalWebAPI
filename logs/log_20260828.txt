@@ -1,0 +1,47 @@
+2026-08-28 10:26:37.186 +07:00 [INF] Now listening on: http://localhost:5128
+2026-08-28 10:26:37.212 +07:00 [INF] Application started. Press Ctrl+C to shut down.
+2026-08-28 10:26:37.213 +07:00 [INF] Hosting environment: Development
+2026-08-28 10:26:37.213 +07:00 [INF] Content root path: C:\Users\Admin\OneDrive\Documents\WebAPIL\HuanBank.Api
+2026-08-28 10:26:43.766 +07:00 [INF] Request starting HTTP/1.1 POST http://localhost:5128/Register - application/json 178
+2026-08-28 10:26:43.948 +07:00 [INF] Executing endpoint 'HTTP: POST /Register'
+2026-08-28 10:26:45.033 +07:00 [INF] Setting HTTP status code 409.
+2026-08-28 10:26:45.042 +07:00 [INF] Writing value of type '<>f__AnonymousType8`1' as Json.
+2026-08-28 10:26:45.050 +07:00 [INF] Executed endpoint 'HTTP: POST /Register'
+2026-08-28 10:26:45.052 +07:00 [INF] Request finished HTTP/1.1 POST http://localhost:5128/Register - 409 null application/json; charset=utf-8 1290.7018ms
+2026-08-28 10:26:52.112 +07:00 [INF] Request starting HTTP/1.1 POST http://localhost:5128/Register - application/json 178
+2026-08-28 10:26:52.114 +07:00 [INF] Executing endpoint 'HTTP: POST /Register'
+2026-08-28 10:26:52.130 +07:00 [INF] Tao Tai Khoan - Tao tai khoan doquanghuan20051 thanh cong
+2026-08-28 10:26:52.131 +07:00 [INF] Setting HTTP status code 201.
+2026-08-28 10:26:52.132 +07:00 [INF] Writing value of type '<>f__AnonymousType9`2' as Json.
+2026-08-28 10:26:52.134 +07:00 [INF] Executed endpoint 'HTTP: POST /Register'
+2026-08-28 10:26:52.134 +07:00 [INF] Request finished HTTP/1.1 POST http://localhost:5128/Register - 201 null application/json; charset=utf-8 23.2552ms
+2026-08-28 10:27:25.372 +07:00 [INF] Request starting HTTP/1.1 GET http://localhost:5128/.well-known/appspecific/com.chrome.devtools.json - null null
+2026-08-28 10:27:25.375 +07:00 [INF] Request starting HTTP/1.1 GET http://localhost:5128/swagger/swagger-ui.css - null null
+2026-08-28 10:27:25.376 +07:00 [INF] Request finished HTTP/1.1 GET http://localhost:5128/.well-known/appspecific/com.chrome.devtools.json - 404 0 null 3.8874ms
+2026-08-28 10:27:25.377 +07:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5128/.well-known/appspecific/com.chrome.devtools.json, Response status code: 404
+2026-08-28 10:27:25.388 +07:00 [INF] Request starting HTTP/1.1 GET http://localhost:5128/swagger/index.css - null null
+2026-08-28 10:27:25.389 +07:00 [INF] Request finished HTTP/1.1 GET http://localhost:5128/swagger/index.css - 304 null null 1.2918ms
+2026-08-28 10:27:25.389 +07:00 [INF] Request finished HTTP/1.1 GET http://localhost:5128/swagger/swagger-ui.css - 304 null null 14.017ms
+2026-08-28 10:29:01.079 +07:00 [INF] Request starting HTTP/1.1 GET http://localhost:5128/.well-known/appspecific/com.chrome.devtools.json - null null
+2026-08-28 10:29:01.079 +07:00 [INF] Request finished HTTP/1.1 GET http://localhost:5128/.well-known/appspecific/com.chrome.devtools.json - 404 0 null 0.3379ms
+2026-08-28 10:29:01.080 +07:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5128/.well-known/appspecific/com.chrome.devtools.json, Response status code: 404
+2026-08-28 10:29:13.292 +07:00 [INF] Request starting HTTP/1.1 GET http://localhost:5128/swagger/index.html - null null
+2026-08-28 10:29:13.374 +07:00 [INF] Request finished HTTP/1.1 GET http://localhost:5128/swagger/index.html - 304 null null 81.5001ms
+2026-08-28 10:29:13.411 +07:00 [INF] Request starting HTTP/1.1 GET http://localhost:5128/swagger/swagger-ui.css - null null
+2026-08-28 10:29:13.411 +07:00 [INF] Request starting HTTP/1.1 GET http://localhost:5128/swagger/index.css - null null
+2026-08-28 10:29:13.411 +07:00 [INF] Request finished HTTP/1.1 GET http://localhost:5128/swagger/index.css - 304 null null 0.1629ms
+2026-08-28 10:29:13.411 +07:00 [INF] Request finished HTTP/1.1 GET http://localhost:5128/swagger/swagger-ui.css - 304 null null 0.2491ms
+2026-08-28 10:29:13.412 +07:00 [INF] Request starting HTTP/1.1 GET http://localhost:5128/swagger/swagger-ui-bundle.js - null null
+2026-08-28 10:29:13.412 +07:00 [INF] Request starting HTTP/1.1 GET http://localhost:5128/swagger/index.js - null null
+2026-08-28 10:29:13.413 +07:00 [INF] Request starting HTTP/1.1 GET http://localhost:5128/swagger/swagger-ui-standalone-preset.js - null null
+2026-08-28 10:29:13.413 +07:00 [INF] Request finished HTTP/1.1 GET http://localhost:5128/swagger/index.js - 304 null null 0.6291ms
+2026-08-28 10:29:13.414 +07:00 [INF] Request finished HTTP/1.1 GET http://localhost:5128/swagger/swagger-ui-standalone-preset.js - 304 null null 1.1624ms
+2026-08-28 10:29:13.417 +07:00 [INF] Request finished HTTP/1.1 GET http://localhost:5128/swagger/swagger-ui-bundle.js - 304 null null 5.5942ms
+2026-08-28 10:29:13.425 +07:00 [INF] Request starting HTTP/1.1 GET http://localhost:5128/.well-known/appspecific/com.chrome.devtools.json - null null
+2026-08-28 10:29:13.425 +07:00 [INF] Request finished HTTP/1.1 GET http://localhost:5128/.well-known/appspecific/com.chrome.devtools.json - 404 0 null 0.3113ms
+2026-08-28 10:29:13.425 +07:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5128/.well-known/appspecific/com.chrome.devtools.json, Response status code: 404
+2026-08-28 10:29:14.000 +07:00 [INF] Request starting HTTP/1.1 GET http://localhost:5128/swagger/v1/swagger.json - null null
+2026-08-28 10:29:14.014 +07:00 [INF] No action descriptors found. This may indicate an incorrectly configured application or missing application parts. To learn more, visit https://aka.ms/aspnet/mvc/app-parts
+2026-08-28 10:29:14.015 +07:00 [INF] Request starting HTTP/1.1 GET http://localhost:5128/swagger/favicon-32x32.png - null null
+2026-08-28 10:29:14.015 +07:00 [INF] Request finished HTTP/1.1 GET http://localhost:5128/swagger/favicon-32x32.png - 304 null null 0.2789ms
+2026-08-28 10:29:14.153 +07:00 [INF] Request finished HTTP/1.1 GET http://localhost:5128/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 152.2165ms

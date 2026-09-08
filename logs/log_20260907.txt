@@ -1,0 +1,52 @@
+2026-09-07 09:56:34.284 +07:00 [INF] Dang Nhap - stk doquanghuan Dang nhap thanh cong
+2026-09-07 10:18:11.849 +07:00 [INF] Xem thong tin - Xem thong tin doquanghuan thanh cong
+2026-09-07 14:35:45.025 +07:00 [ERR] Dang Nhap - Loi he thong khi STK doquanghuan dang nhap
+Oracle.ManagedDataAccess.Client.OracleException (0x80004005): ORA-00942: table or view does not exist
+https://docs.oracle.com/error-help/db/ora-00942/
+   at OracleInternal.ServiceObjects.OracleFailoverMgrImpl.OnError(OracleConnection connection, CallHistoryRecord chr, Object mi, Exception ex, Boolean bTopLevelCall, Boolean& bCanRecordNewCall)
+   at Oracle.ManagedDataAccess.Client.OracleCommand.ExecuteScalar()
+   at Dapper.SqlMapper.ExecuteScalarImpl[T](IDbConnection cnn, CommandDefinition& command) in /_/Dapper/SqlMapper.cs:line 3036
+   at Dapper.SqlMapper.ExecuteScalar[T](IDbConnection cnn, String sql, Object param, IDbTransaction transaction, Nullable`1 commandTimeout, Nullable`1 commandType) in /_/Dapper/SqlMapper.cs:line 601
+   at AccountDAO.Exists(String stk) in C:\Users\Admin\OneDrive\Documents\WebAPIL\HuanBank.Api\src\DAO\AccountDAO.cs:line 14
+   at BankManager.AccountExists(String stk) in C:\Users\Admin\OneDrive\Documents\WebAPIL\HuanBank.Api\src\service\bank.cs:line 45
+   at BankManager.Login(String stk, String mk) in C:\Users\Admin\OneDrive\Documents\WebAPIL\HuanBank.Api\src\service\bank.cs:line 97
+2026-09-07 15:05:22.135 +07:00 [INF] Tao Tai Khoan - Tao tai khoan doquanghuan thanh cong
+2026-09-07 15:05:39.230 +07:00 [INF] Tao Tai Khoan - Tao tai khoan doquanghuan1 thanh cong
+2026-09-07 15:05:40.446 +07:00 [WRN] Dang Ki - Sotk doquanghuan1 da ton tai
+2026-09-07 15:05:45.481 +07:00 [WRN] Dang Ki - Sotk doquanghuan1 da ton tai
+2026-09-07 15:06:09.898 +07:00 [INF] Nap Tien - So tai khoan doquanghuan nap tien thanh cong, so tien 10000000
+2026-09-07 15:06:09.901 +07:00 [INF] Xem so du - Xem so du doquanghuan thanh cong
+2026-09-07 15:06:13.370 +07:00 [INF] Nap Tien - So tai khoan doquanghuan nap tien thanh cong, so tien 10000000
+2026-09-07 15:06:13.370 +07:00 [INF] Xem so du - Xem so du doquanghuan thanh cong
+2026-09-07 15:06:18.002 +07:00 [INF] Nap Tien - So tai khoan doquanghuan1 nap tien thanh cong, so tien 10000000
+2026-09-07 15:06:18.002 +07:00 [INF] Xem so du - Xem so du doquanghuan1 thanh cong
+2026-09-07 15:06:30.112 +07:00 [WRN] Rut tien - So tai khoan doquanghuan rut tien thanh cong
+2026-09-07 15:06:38.535 +07:00 [INF] Xem so du - Xem so du doquanghuan thanh cong
+2026-09-07 15:07:01.402 +07:00 [INF] Chuyen tien - So tai khoan doquanghuan chuyen tien thanh cong cho so tai khoan doquanghuan1, So tien 1000000
+2026-09-07 15:07:10.414 +07:00 [INF] Xem so du - Xem so du doquanghuan thanh cong
+2026-09-07 15:07:14.695 +07:00 [INF] Xem so du - Xem so du doquanghuan1 thanh cong
+2026-09-07 15:07:20.324 +07:00 [INF] Xem so du - Xem so du doquanghuan12 thanh cong
+2026-09-07 15:08:09.440 +07:00 [INF] Xem so du - Xem so du doquanghuan12 thanh cong
+2026-09-07 15:08:10.599 +07:00 [INF] Xem so du - Xem so du doquanghuan12 thanh cong
+2026-09-07 15:08:32.768 +07:00 [INF] Xem so du - Xem so du doquanghuan12 thanh cong
+2026-09-07 15:08:37.914 +07:00 [INF] Xem so du - Xem so du doquanghuan1 thanh cong
+2026-09-07 15:08:44.956 +07:00 [INF] Xem lich su - Xem lich su giao dich doquanghuan thanh cong
+2026-09-07 15:17:09.360 +07:00 [INF] Xem thong tin - Xem thong tin doquanghuan thanh cong
+2026-09-07 15:18:09.474 +07:00 [INF] Xem thong tin - Xem thong tin doquanghuan thanh cong
+2026-09-07 15:18:21.244 +07:00 [INF] Xem lich su - Xem lich su giao dich doquanghuan thanh cong
+2026-09-07 15:18:31.780 +07:00 [INF] Xem lich su - Xem lich su giao dich doquanghuan1 thanh cong
+2026-09-07 15:29:58.058 +07:00 [INF] Xem lich su - Xem lich su giao dich doquanghuan thanh cong
+2026-09-07 15:30:24.080 +07:00 [INF] Xem thong tin - Xem thong tin doquanghuan thanh cong
+2026-09-07 15:30:57.512 +07:00 [INF] Xem thong tin - Xem thong tin doquanghuan thanh cong
+2026-09-07 15:31:02.748 +07:00 [INF] Xem thong tin - Xem thong tin doquanghuan thanh cong
+2026-09-07 15:31:03.470 +07:00 [INF] Xem thong tin - Xem thong tin doquanghuan thanh cong
+2026-09-07 15:31:29.192 +07:00 [INF] Xem thong tin - Xem thong tin doquanghuan thanh cong
+2026-09-07 15:38:09.879 +07:00 [INF] Xem thong tin - Xem thong tin doquanghuan thanh cong
+2026-09-07 15:54:48.228 +07:00 [INF] Xem thong tin - Xem thong tin doquanghuan thanh cong
+2026-09-07 15:54:55.115 +07:00 [INF] Xem lich su - Xem lich su giao dich doquanghuan thanh cong
+2026-09-07 15:54:59.887 +07:00 [INF] Xem lich su - Xem lich su giao dich doquanghuan1 thanh cong
+2026-09-07 15:59:47.899 +07:00 [INF] Xem lich su - Xem lich su giao dich doquanghuan1 thanh cong
+2026-09-07 15:59:48.042 +07:00 [INF] Xem so du - Xem so du doquanghuan1 thanh cong
+2026-09-07 16:13:50.221 +07:00 [INF] Xem lich su - Xem lich su giao dich doquanghuan1 thanh cong
+2026-09-07 16:13:50.233 +07:00 [INF] Xem so du - Xem so du doquanghuan1 thanh cong
+2026-09-07 17:11:26.631 +07:00 [INF] Xem lich su - Xem lich su giao dich doquanghuan1 thanh cong

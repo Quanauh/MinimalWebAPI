@@ -1,0 +1,8 @@
+@HuanBank_HostAddress = http://localhost:5128
+
+GET  {{HuanBank_HostAddress}}/GetBalance
+Content-Type: application/json
+
+{
+  "Stk": "doquanghuan",
+}
