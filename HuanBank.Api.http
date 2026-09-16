@@ -1,8 +1,12 @@
 @HuanBank_HostAddress = http://localhost:5128
 
-GET  {{HuanBank_HostAddress}}/GetBalance
+POST {{HuanBank_HostAddress}}/Login
 Content-Type: application/json
 
 {
-  "Stk": "doquanghuan",
+  "Stk": "doquanghuan1",
+  "Mk": "2"
 }
+
+### 
+GET  {{HuanBank_HostAddress}}/GetBalance?stk=doquanghuan

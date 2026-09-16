@@ -133,7 +133,7 @@ app.MapGet("/GetBalance",(string stk,BankManager qlnh)=>{
         soDu = kq
     });
 });
-app.MapGet("/GetAccountInfor", (string stk, BankManager qlnh) =>
+app.MapGet("/GetAccountInfo", (string stk, BankManager qlnh) =>
 {
     if (!qlnh.AccountExists(stk))
         return Results.NotFound(new { message = "Khong tim thay tai khoan" });

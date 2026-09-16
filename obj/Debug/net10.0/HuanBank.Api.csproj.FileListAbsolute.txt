@@ -47,3 +47,4 @@ C:\Users\Admin\OneDrive\Documents\WebAPIL\HuanBank.Api\obj\Debug\net10.0\ref\Hua
 C:\Users\Admin\OneDrive\Documents\WebAPIL\HuanBank.Api\bin\Debug\net10.0\Swashbuckle.AspNetCore.Swagger.dll
 C:\Users\Admin\OneDrive\Documents\WebAPIL\HuanBank.Api\bin\Debug\net10.0\Swashbuckle.AspNetCore.SwaggerGen.dll
 C:\Users\Admin\OneDrive\Documents\WebAPIL\HuanBank.Api\bin\Debug\net10.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\Admin\OneDrive\Documents\WebAPIL\HuanBank.Api\obj\Debug\net10.0\HuanBank.Api.sourcelink.json
